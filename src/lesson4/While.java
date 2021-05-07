@@ -28,5 +28,6 @@ public class While {
         System.out.println("Your salary is " + salary);
 
 
+
     }
 }
