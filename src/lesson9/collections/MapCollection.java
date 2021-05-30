@@ -9,6 +9,8 @@ public class MapCollection {
 
         LinkedHashMap<String, Double> mapCollection = new LinkedHashMap<>();
 
+//        someMethod();
+
         mapCollection.put("banana", 4.20);
         mapCollection.put("apple", 5.20);
         mapCollection.put("orange", 24.20);
