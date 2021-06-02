@@ -10,11 +10,12 @@ public class Milk implements Product, BarCode {
 
     @Override
     public double getPrice() {
-        return 0;
+        return price;
     }
 
     @Override
     public void setPrice(double price) {
+        this.price = price;
 
     }
 
@@ -25,6 +26,8 @@ public class Milk implements Product, BarCode {
 
     @Override
     public void setName(String name) {
+
+        this.name = name;
 
     }
 
@@ -41,5 +44,16 @@ public class Milk implements Product, BarCode {
     @Override
     public void setBarcode(String barcode) {
 
+    }
+
+    @Override
+    public String toString() {
+        return "Milk{" +
+                "price=" + price +
+                ", name='" + name + '\'' +
+                ", color='" + color + '\'' +
+                ", weight='" + weight + '\'' +
+                ", fatness=" + fatness +
+                '}';
     }
 }
