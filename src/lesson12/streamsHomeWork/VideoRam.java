@@ -1,4 +1,4 @@
-package lesson3.streamsHomeWork;
+package lesson12.streamsHomeWork;
 
 public class VideoRam {
 
